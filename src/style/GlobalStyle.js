@@ -260,6 +260,9 @@ const GlobalStyle = createGlobalStyle`
         .StyledLearn{
             overflow: hidden!important;
         }
+        .Forms .right{
+            padding: 1rem!important;
+        }
         
     }
     
