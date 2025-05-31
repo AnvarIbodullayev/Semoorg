@@ -51,7 +51,7 @@ function Instructor() {
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     Magni eos ut veritatis.
                   </p>
-                  <StyledNumberBox className="styledNumberBox">
+                  <StyledNumberBox>
                     <ul>
                       <li>
                         <h2 className="titleH fw-bold">45</h2>

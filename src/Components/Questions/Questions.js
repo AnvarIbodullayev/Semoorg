@@ -1,7 +1,5 @@
 import React from "react";
 import styled from "styled-components";
-import avatar1 from "../../assets/avatar1.jpg";
-import avatar2 from "../../assets/avatar2.jpg";
 import Accordion from "react-bootstrap/Accordion";
 import MyButton from "../MyButton/MyButton";
 

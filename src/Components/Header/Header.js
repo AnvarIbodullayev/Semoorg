@@ -49,12 +49,6 @@ const StyledHeader = styled.section`
 `;
 
 function Header() {
-  const list = [
-    "Shareable Certificate",
-    "Flexible Deadlines",
-    "100% Online Courses",
-    "Approx.24 hours",
-  ];
   return (
     <StyledHeader className="Header">
       <Carousel>
