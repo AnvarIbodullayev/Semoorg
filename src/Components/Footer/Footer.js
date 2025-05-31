@@ -67,7 +67,7 @@ function Footer({ users, theme }) {
             <div className="mt-4 mb-4">
               <span>©2024 by Longsword Building and Maintenance Services.</span>
               <br />
-              <a href="#">Privacy Policy</a>
+              {/* <a href="#">Privacy Policy</a> */}
             </div>
             <span className="FIconBox">
               <i className="bi bi-facebook"></i>
@@ -80,19 +80,19 @@ function Footer({ users, theme }) {
             <div className="d-flex">
               <ul>
                 <li>
-                  <a href="#features">Features</a>
+                  <a href="#HeaderId">Home</a>
                 </li>
                 <li>
-                  <a href="#style-guide">Style Guide</a>
+                  <a href="#InstructorId">About</a>
                 </li>
                 <li>
-                  <a href="#contact">Contact us</a>
+                  <a href="#TestimonialsId">Services</a>
                 </li>
                 <li>
-                  <a href="#get-theme">Get Theme</a>
+                  <a href="#LearnId">Our Works</a>
                 </li>
                 <li>
-                  <a href="#support">Support</a>
+                  <a href="#FooterId">Support</a>
                 </li>
               </ul>
             </div>
@@ -110,7 +110,7 @@ function Footer({ users, theme }) {
           <ul>
             <li>
               <span>
-                Email: <a href="#">Semoorg@gmail.com</a>
+                Email: <a href="mailto:Semoorg@example.com">Semoorg@gmail.com</a>
               </span>
             </li>
             <li>

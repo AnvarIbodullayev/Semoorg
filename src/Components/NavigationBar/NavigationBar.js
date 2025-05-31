@@ -5,16 +5,8 @@ import ThemeContext from "../../Context/ThemeContext";
 // ------------
 import Container from "react-bootstrap/Container";
 import Navbar from "react-bootstrap/Navbar";
-import Form from "react-bootstrap/Form";
-import Button from "react-bootstrap/Button";
 import Nav from "react-bootstrap/Nav";
-import NavDropdown from "react-bootstrap/NavDropdown";
 import MyButton from "../MyButton/MyButton";
-
-const CSpan = styled.span`
-  font-size: 12px;
-  padding-left: 13px;
-`;
 
 const IconTheme = styled.i`
   cursor: pointer !important;
