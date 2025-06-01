@@ -100,11 +100,7 @@ function NavigationBar() {
               }`}
             ></IconTheme>
 
-<<<<<<< HEAD
             <a href="#FormsId">
-=======
-            <a href="#FooterId">
->>>>>>> f096a713c2141b60d215233ea5d8c0ff4a537f1e
               {" "}
               <MyButton
                 title={"CONTACT US"}
