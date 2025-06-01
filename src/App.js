@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from "react";
-<<<<<<< HEAD
 import {
   BrowserRouter as Router,
   Routes,
@@ -7,8 +6,6 @@ import {
   Link,
   NavLink,
 } from "react-router-dom";
-=======
->>>>>>> f096a713c2141b60d215233ea5d8c0ff4a537f1e
 import Companies from "./Components/Companies/Companies";
 import Header from "./Components/Header/Header";
 import Instructor from "./Components/Instructor/Instructor";
@@ -83,7 +80,6 @@ function App() {
   }, [theme]);
 
   return (
-<<<<<<< HEAD
     <Router>
       <ThemeContext.Provider value={{ theme, toggleTheme }}>
         <div className="App">
@@ -118,38 +114,6 @@ function App() {
         </div>
       </ThemeContext.Provider>
     </Router>
-=======
-    <ThemeContext.Provider value={{ theme, toggleTheme }}>
-      <div className="App">
-        <GlobalStyle />
-        {/* // -----------------====>>>>>))))------------------------------ */}
-        <NavigationBar />
-        <div id="HeaderId">
-          <Header />
-        </div>
-        <Join data={data} />
-        <div id="InstructorId">
-          <Instructor />
-        </div>
-        <div id="TestimonialsId">
-          <Testimonials data={data} />
-        </div>
-        <Companies data={data} />
-        <div id="LearnId">
-          <Learn data={data} />
-        </div>
-        <Questions />
-        <Forms />
-
-        {/* // --->>>>>>>>> */}
-
-        <div id="FooterId">
-          <Footer theme={theme} />
-        </div>
-        {/* // ------------------====>>>>>))))----------------------------- */}
-      </div>
-    </ThemeContext.Provider>
->>>>>>> f096a713c2141b60d215233ea5d8c0ff4a537f1e
   );
 }
 
