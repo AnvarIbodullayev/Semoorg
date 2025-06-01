@@ -41,7 +41,7 @@ function Forms() {
     e.preventDefault();
     try {
       const response = await axios.post(
-        "http://localhost:3001/contact",
+        `${process.env.REACT_APP_API_URL}/contact`,
         formData
       );
       alert(response.data.message);
